@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "wannalead",
+  "displayName": "Wannalead",
+  "version": "1.0.0",
+  "description": "Use Wannalead's LinkedIn workflows through its hosted MCP server.",
+  "author": {
+    "name": "Wannalead",
+    "email": "support@wannalead.co"
+  },
+  "homepage": "https://wannalead.co",
+  "repository": "https://github.com/ThomasMarcelin754/wannalead-plugin",
+  "license": "MIT",
+  "keywords": ["linkedin", "sales", "prospecting", "mcp"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

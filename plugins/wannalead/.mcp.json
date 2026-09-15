@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "wannalead": {
+      "type": "streamable-http",
+      "url": "https://wannalead.co/mcp"
+    }
+  }
+}

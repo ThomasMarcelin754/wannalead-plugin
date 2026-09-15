@@ -1,0 +1,33 @@
+{
+  "name": "wannalead",
+  "version": "1.0.0",
+  "description": "Use Wannalead's LinkedIn workflows through its hosted MCP server.",
+  "author": {
+    "name": "Wannalead",
+    "email": "support@wannalead.co",
+    "url": "https://wannalead.co"
+  },
+  "homepage": "https://wannalead.co",
+  "repository": "https://github.com/ThomasMarcelin754/wannalead-plugin",
+  "license": "MIT",
+  "keywords": ["linkedin", "sales", "prospecting", "mcp"],
+  "interface": {
+    "displayName": "Wannalead",
+    "shortDescription": "LinkedIn workflows for your AI agent.",
+    "longDescription": "Find and enrich prospects, map accounts, research warm audiences, and run explicitly approved LinkedIn outreach through Wannalead's hosted MCP server.",
+    "developerName": "Wannalead",
+    "category": "Sales",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://wannalead.co",
+    "privacyPolicyURL": "https://wannalead.co/privacy",
+    "termsOfServiceURL": "https://wannalead.co/terms",
+    "defaultPrompt": [
+      "Find people matching my ideal customer profile.",
+      "Map the buying committee at a target account.",
+      "Build a warm prospect list from post engagement."
+    ],
+    "brandColor": "#1919FF",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png"
+  }
+}

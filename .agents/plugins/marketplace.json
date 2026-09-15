@@ -1,0 +1,20 @@
+{
+  "name": "wannalead",
+  "interface": {
+    "displayName": "Wannalead"
+  },
+  "plugins": [
+    {
+      "name": "wannalead",
+      "source": {
+        "source": "local",
+        "path": "./plugins/wannalead"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Sales"
+    }
+  ]
+}

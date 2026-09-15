@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "wannalead",
+  "owner": {
+    "name": "Wannalead",
+    "email": "support@wannalead.co"
+  },
+  "metadata": {
+    "description": "Official Wannalead plugins"
+  },
+  "plugins": [
+    {
+      "name": "wannalead",
+      "source": "./plugins/wannalead",
+      "description": "LinkedIn research, prospecting, and approved outreach through Wannalead.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Wannalead",
+        "email": "support@wannalead.co"
+      },
+      "homepage": "https://wannalead.co",
+      "repository": "https://github.com/ThomasMarcelin754/wannalead-plugin",
+      "category": "sales",
+      "tags": ["linkedin", "prospecting", "outreach", "mcp"]
+    }
+  ]
+}
